@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Layout</title>
+
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="poly.css">
+    <style>
+        .container-fluid div {
+            padding: 0 0 0 15px;
+        }
+        .container header div {
+            bottom: 20px;
+            font-variant: small-caps;
+        }
+        .container header div div h1{
+            font-family: Impact;
+            font-size: 50px;
+            color: white;
+            text-shadow: 0 0 2px black;
+            padding-bottom: 0px;
+            border-bottom: 1px dotted gray;
+        }
+    </style>
+</head>
+<body>
+<div class="container" style="height: auto">
+    <header class="row">
+        <div class="shopping-mall">
+            <div class="col-sm-8">
+                <h1>Online shopping mall</h1>
+                <h5>The center point of the professional programing</h5>
+            </div>
+            <div class="col-sm-4">
+                <img class="pull-right" src="apple.jpg " width="100%">
+
+            </div>
+        </div>
+    </header>
+    <nav class="navbar navbar-inverse">
+        <div class="row">
+            <div class="col-sm-9">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-home"></span> Trang chủ</a>
+                    </div>
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-list-alt"></span> Giới thiệu</a>
+                    </div>
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-earphone"></span> Liên hệ</a>
+                    </div>
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-envelope"></span> Góp ý</a>
+                    </div>
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-question-sign"></span> Hỏi đáp</a>
+                    </div>
+                    <div class="navbar-header" >
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span class="glyphicon glyphicon-user"></span> Tài khoản</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Đăng nhập</a></li>
+                                    <li><a href="#">Quên mật khẩu</a></li>
+                                    <li><a href="#">Đăng kí</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#">Đăng xuất</a></li>
+                                    <li><a href="#">Đổi mật khẩu</a></li>
+                                    <li><a href="#">Sửa đổi thông tin</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#">Đơn hàng</a></li>
+                                    <li><a href="#">Đã mua</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </div>
+            <div class="col-sm-3">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#"> Tiếng việt</a>
+                </div>
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">English</a>
+                </div>
+            </div>
+
+        </div>
+
+    </nav>
+    <div class="row">
+        <article class="col-sm-9">
+            <div class = "col-sm-4 poly-prod">
+                <div class = "panel panel-default">
+                    <div class = "panel-heading">
+                        <h4 class = "panel-title">
+                            Iphone xs max
+                        </h4>
+                    </div>
+                    <div class = "panel-body">
+                        <img src="https://images.fpt.shop/unsafe/fit-in/465x465/filters:quality(90):fill(white)/cdn.fptshop.com.vn/Uploads/Originals/2018/10/11/636748771945393060_iPhone-Xs-Max-gold.png" height="228" width="292"/></div>
+                    <div class = "panel-footer">
+                        $ 999
+                    </div>
+                </div>
+            </div>
+        </article>
+        <aside class="col-sm-3">
+            <div class = "poly-cart">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <img class="col-sm-5" src="https://d1nhio0ox7pgb.cloudfront.net/_img/g_collection_png/standard/256x256/shopping_cart.png"/>
+                        <ul class="col-sm-7">
+                            <li>1 items</li>
+                            <li>999$</li>
+                            <li><a href="#">Xem giỏ hàng</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <form>
+                        <input placeholder="Keywords" class="form-control"/>
+                    </form>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <span class = "glyphicon glyphicon-th-list"></span>
+                    <strong>Chủng Loại</strong>
+                </div>
+                <div class="list-group">
+                    <a href="#" class="list-group-item">Điện thoại di động</a>
+                    <a href="#" class="list-group-item">Máy tính xách tay</a>
+                    <a href="#" class="list-group-item">Máy tính để bàn</a>
+                    <a href="#" class="list-group-item">Quạt máy</a>
+                    <a href="#" class="list-group-item">Tivi</a>
+                    <a href="#" class="list-group-item">Tủ lạnh</a>
+                </div>
+            </div>
+        </aside>
+
+    </div>
+
+    <footer class="panel panel-default">
+        <div class="panel-heading text-center">
+            <p>&copy; 2019</p>
+        </div>
+    </footer>
+</div>
+
+
+</body>
+</html>
